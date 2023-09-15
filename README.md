@@ -5,7 +5,7 @@ Reverses the words of a sentence.
 ## Install
 
 ```sh
-npm install @npmusername/reverse-sentence
+npm install @test_user11/reverse-sentence
 ```
 
 ## API
@@ -22,6 +22,7 @@ reverse(sentence) => String
 const reverseSentence = require("reverse-sentence");
  // or
 import reverseSentence from "reverse-sentence";
+
 const sentence = "Hello Beth!"; 
 const reversed = reverseSentence(sentence); 
 console.log(reversed) // Beth! Hello
