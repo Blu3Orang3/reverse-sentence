@@ -18,14 +18,13 @@ reverse(sentence) => String
 ## Example
 
 ```js
-
 const reverseSentence = require("reverse-sentence");
- // or
+// or
 import reverseSentence from "reverse-sentence";
 
-const sentence = "Hello Beth!"; 
-const reversed = reverseSentence(sentence); 
-console.log(reversed) // Beth! Hello
+const sentence = "Hello Beth!";
+const reversed = reverseSentence(sentence);
+console.log(reversed); // Beth! Hello
 ```
 
 ## License
